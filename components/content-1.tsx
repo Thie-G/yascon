@@ -38,7 +38,7 @@ export default function ContentSection() {
                                 <p>Together, we can color Malawi Green.</p>
 
                                 <div className="mt-6 space-y-3">
-                                    <cite className="block font-medium">Team Nyason</cite>
+                                    <cite className="block font-medium">Team Nyascon</cite>
                                 </div>
                             </blockquote>
                         </div>

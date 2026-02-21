@@ -20,7 +20,7 @@ export default function HeroSection() {
                         <div className="relative w-full flex mt-35 md:mt-20 lg:mt-15 xl:mt-3 flex-col h-64 md:h-80 lg:100 xl:h-128"> 
                             {/* Next.js Image component with fill property */}
                             <Image
-                                src="/yasconCover.png" // Replace with your image path
+                                src="/yasconCover.png" // image path
                                 alt="Coverpage image"
                                 fill // makes image absolute and fills parent
                                 className="object-cover brightness-50 h-full w-full rounded-lg shadow-wd opacity-100 " // object-cover ensures image covers the area nicely
@@ -35,8 +35,6 @@ export default function HeroSection() {
                             </div>
 
                         </div>
-    
-
 
                                 <div className="mt-12  auto-rows-fr flex flex-col items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                     
