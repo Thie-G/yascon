@@ -23,7 +23,7 @@ export default function HeroSection() {
                                 src="/yasconCover.png" // Replace with your image path
                                 alt="Coverpage image"
                                 fill // makes image absolute and fills parent
-                                className="object-cover h-full w-full rounded-lg shadow-wd opacity-100 " // object-cover ensures image covers the area nicely
+                                className="object-cover brightness-50 h-full w-full rounded-lg shadow-wd opacity-100 " // object-cover ensures image covers the area nicely
                             />
                             
                             {/* Text container positioned absolutely within the parent */}
