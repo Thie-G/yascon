@@ -23,7 +23,7 @@ export default function HeroSection() {
                                 src="/yasconCover.png" // Replace with your image path
                                 alt="Coverpage image"
                                 fill // makes image absolute and fills parent
-                                className="object-cover rounded-lg shadow-wd opacity-100 " // object-cover ensures image covers the area nicely
+                                className="object-cover h-full w-full rounded-lg shadow-wd opacity-100 " // object-cover ensures image covers the area nicely
                             />
                             
                             {/* Text container positioned absolutely within the parent */}
@@ -37,12 +37,12 @@ export default function HeroSection() {
                         </div>
     
 
-                            <div className="mx-auto max-w-lg text-center lg:ml-0  lg:w-1/2 lg:text-left">
 
-                                <div className="mt-12 flex flex-col items-center">
-                                   <div className="bg-neutral-primary-soft block max-w-sm m-2 p-6 border hover:transition-smooth border-green-800 border-1 rounded-base shadow-wd shadow-xs">
+                                <div className="mt-12  auto-rows-fr flex flex-col items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                    
+                                   <div className="bg-neutral-primary-soft block max-w-sm m-2 p-6 border hover:transition-smooth border-green-800 bg-slate-50 border-1 rounded-base shadow-wd rounded-lg">
                                     <a href="#">
-                                        <img className="rounded-base" src="yascon 4.png" alt="yascon" />
+                                        <img className="rounded-base hover:p-1" src="yascon 4.png" alt="yascon" />
                                     </a>
                                     <a href="#">
                                         <h5 className="mt-6 mb-2 text-2xl  text-green-800 font-semibold tracking-tight text-heading">Our Vision</h5>
@@ -51,9 +51,9 @@ export default function HeroSection() {
                                    </div>
                                
 
-                                <div className="bg-neutral-primary-soft bg-grey-300 block max-w-sm p-6 border hover:transition-smooth border-green-800 border-1  border-default rounded-base shadow-xs">
+                                <div className="bg-neutral-primary-soft block max-w-sm p-6 border hover:transition-smooth border-green-800 border-1  border-1 bg-slate-50 rounded-base rounded-lg">
                                     <a href="#">
-                                        <img className="rounded-base" src="yascon1.png" alt="yascon" />
+                                        <img className="rounded-base hover:p-1" src="yascon1.png" alt="yascon" />
                                     </a>
                                     <a href="#">
                                         <h5 className="mt-6 mb-2 text-2xl text-green-800 font-semibold tracking-tight text-heading">Our Mission</h5>
@@ -62,9 +62,9 @@ export default function HeroSection() {
                                    
                                 </div>
                                 
-                               <div className="bg-neutral-primary-soft block max-w-sm m-2 p-6 border hover:transition-smooth border-green-800 border-1 rounded-base shadow-wd shadow-xs">
+                               <div className="bg-neutral-primary-soft block max-w-sm m-2 p-6 border hover:transition-smooth border-green-800 border-1 rounded-base bg-slate-50 rounded-lg">
                                     <a href="#">
-                                        <img className="rounded-base" src="yascon 4.png" alt="yascon" />
+                                        <img className="rounded-base hover:p-1" src="yascon 4.png" alt="yascon" />
                                     </a>
                                     <a href="#">
                                         <h5 className="mt-6 mb-2 text-2xl  text-green-800 font-semibold tracking-tight text-heading">Core Values.</h5>
@@ -73,7 +73,7 @@ export default function HeroSection() {
                                    
                                 </div>
                           
-                         </div>
+                      
                         </div> 
                         
                         </div>

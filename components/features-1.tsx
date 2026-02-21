@@ -1,17 +1,16 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Settings2, Sparkles, Zap } from 'lucide-react'
 import { ReactNode } from 'react'
 
 export default function Features() {
     return (
-        <section className="py-16 md:py-32 dark:bg-transparent">
+        <section className="dark:bg-transparent">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-balance text-3xl font-bold lg:text-4xl">COMMUNITY MOBILIZATION CAMPAINS</h2>
                     <p className="mt-4">Our team enganged in planting of trees at Zomba and Lilongwe and areas in Malawi</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
-                    <Card className="group shadow-zinc-950/5 border-b-4 border-grey-800">
+                    <Card className="group shadow-zinc-950/5 border-b-4 bg-slate-50 border-grey-800">
                         <CardHeader className="pb-3 bg-green-1000">
                            
                                 <img
@@ -30,7 +29,7 @@ export default function Features() {
                         </CardContent>
                     </Card>
 
-                    <Card className="group shadow-zinc-950/5 border-b-4 border-green-800">
+                    <Card className="group shadow-zinc-950/5 border-b-4 bg-slate-50 border-green-800">
                         <CardHeader className="pb-3">
                              <img
                                     
@@ -47,7 +46,7 @@ export default function Features() {
                         </CardContent>
                     </Card>
 
-                    <Card className="group shadow-zinc-950/5 border-b-4 border-zinc-800">
+                    <Card className="group shadow-zinc-950/5 bg-slate-50 border-b-4 border-zinc-800">
                         <CardHeader className="pb-3">
                              <img
                                     
